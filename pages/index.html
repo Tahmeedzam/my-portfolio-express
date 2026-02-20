@@ -3,133 +3,66 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Tahmeed Zamindar | Portfolio</title>
+  <title>Tahmeed Zamindar</title>
 
   <!-- Bootstrap CSS -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
 
   <style>
     body {
-      background-color: #f8f9fa;
-    }
-    .hero {
-      padding: 100px 0;
+      height: 100vh;
+      margin: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
       background: linear-gradient(135deg, #198754, #0d6efd);
-      color: white;
-      text-align: center;
+      font-family: Arial, sans-serif;
     }
-    .section-title {
-      font-weight: 600;
-      margin-bottom: 30px;
+
+    .card {
+      width: 350px;
+      border-radius: 20px;
     }
-    .card:hover {
-      transform: translateY(-5px);
-      transition: 0.3s;
+
+    .profile-img {
+      width: 140px;
+      height: 140px;
+      object-fit: cover;
+      border-radius: 50%;
+      border: 5px solid #198754;
+      margin-top: -70px;
+      background: white;
     }
-    footer {
-      background-color: #212529;
-      color: white;
-      padding: 20px 0;
-      text-align: center;
+
+    .btn-custom {
+      border-radius: 25px;
     }
   </style>
 </head>
 <body>
 
-<!-- Navbar -->
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-  <div class="container">
-    <a class="navbar-brand" href="#">Tahmeed Zamindar</a>
-  </div>
-</nav>
+  <div class="card shadow-lg text-center p-4">
+    
+    <!-- Profile Image -->
+    <div class="text-center">
+      <img src="/images/image.png" alt="Profile Photo" class="profile-img">
+    </div>
 
-<!-- Hero Section -->
-<section class="hero">
-  <div class="container">
-    <h1 class="display-4">Hi, I'm Tahmeed 👋</h1>
-    <p class="lead">Computer Engineering Student | Web Developer | Tech Enthusiast</p>
-    <a href="#contact" class="btn btn-light mt-3">Contact Me</a>
-  </div>
-</section>
+    <!-- Name -->
+    <h2 class="mt-3">Tahmeed Zamindar</h2>
+    <p class="text-muted mb-2">TE-Comps B 242P003</p>
 
-<!-- About Section -->
-<section class="py-5">
-  <div class="container text-center">
-    <h2 class="section-title">About Me</h2>
-    <p class="mx-auto" style="max-width: 700px;">
-      I am a passionate Computer Engineering student (TE-Comps B 242P003) 
-      interested in web development, cloud computing, and building real-world projects.
-      I enjoy learning new technologies and solving practical problems.
+    <!-- Email -->
+    <p class="mb-3">
+      📧 tahmeedzamindar.tz@gmail.com
     </p>
-  </div>
-</section>
 
-<!-- Skills Section -->
-<section class="py-5 bg-light">
-  <div class="container">
-    <h2 class="section-title text-center">Skills</h2>
-    <div class="row text-center">
-      <div class="col-md-4 mb-4">
-        <div class="card p-3 shadow-sm">
-          <h5>Frontend</h5>
-          <p>HTML, CSS, Bootstrap, JavaScript</p>
-        </div>
-      </div>
-      <div class="col-md-4 mb-4">
-        <div class="card p-3 shadow-sm">
-          <h5>Backend</h5>
-          <p>Node.js, Express, Basic APIs</p>
-        </div>
-      </div>
-      <div class="col-md-4 mb-4">
-        <div class="card p-3 shadow-sm">
-          <h5>Tools</h5>
-          <p>Git, GitHub, AWS EC2, VS Code</p>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
+    <!-- Skills Button -->
+    <a href="/skills" class="btn btn-success btn-custom px-4">
+      My Skills
+    </a>
 
-<!-- Projects Section -->
-<section class="py-5">
-  <div class="container">
-    <h2 class="section-title text-center">Projects</h2>
-    <div class="row">
-      <div class="col-md-6 mb-4">
-        <div class="card shadow-sm p-3">
-          <h5>Portfolio Website</h5>
-          <p>Personal responsive portfolio built using Bootstrap.</p>
-        </div>
-      </div>
-      <div class="col-md-6 mb-4">
-        <div class="card shadow-sm p-3">
-          <h5>Cloud Deployment</h5>
-          <p>Hosted static website on AWS EC2 instance.</p>
-        </div>
-      </div>
-    </div>
   </div>
-</section>
-
-<!-- Contact Section -->
-<section id="contact" class="py-5 bg-light">
-  <div class="container text-center">
-    <h2 class="section-title">Contact</h2>
-    <p>Email: tahmeed@example.com</p>
-    <p>Phone: +91 9876543210</p>
-  </div>
-</section>
-
-<!-- Footer -->
-<footer>
-  <div class="container">
-    <p>© 2026 Tahmeed Zamindar | All Rights Reserved</p>
-  </div>
-</footer>
-
-<!-- Bootstrap JS -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 
 </body>
 </html>
